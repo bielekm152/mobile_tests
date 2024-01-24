@@ -3,6 +3,9 @@ Technical task #3
 
 Tests were designed to test basic functionalities of Ryanair mobile application on Android devices
 
+APK file can be downloaded from link:
+https://www.apkmirror.com/apk/ryanair/ryanair-cheapest-fares/ryanair-cheapest-fares-3-171-0-release/
+
 SW needed to set up environment for tests:
 -Android studio (with emulator and
 installed com.ryanair.cheapflights_3.171.0-908_minAPI26(arm64-v8a,armeabi,armeabi-v7a,mips,x86,x86_64)(nodpi)_apkmirror.com.apk)
