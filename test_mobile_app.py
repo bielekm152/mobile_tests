@@ -6,9 +6,6 @@ from appium import webdriver
 from appium.options.common import AppiumOptions
 from appium.webdriver.common.appiumby import AppiumBy
 
-capabilities = config.cap
-url = config.url
-
 
 class TestSuite(unittest.TestCase):
     if __name__ == "__main__":
@@ -16,7 +13,7 @@ class TestSuite(unittest.TestCase):
 
     def setUp(self):
         # Establishing of connection with emulator or real device and opening specified application
-        self.driver = webdriver.Remote(url, options=AppiumOptions().load_capabilities(capabilities))
+        self.driver = webdriver.Remote(config.url, options=AppiumOptions().load_capabilities(config.cap))
 
     def test_1_search_flights(self):
         # Test to check if error message was correctly displayed after
